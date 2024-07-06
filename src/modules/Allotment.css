@@ -1,0 +1,349 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Toolbar Styles */
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Allot-Container{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 1200px;
+    min-width: 1200px;
+    min-height: 600px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Toolbar Styles */
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.tab-button {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active {
+    background-color: rgb(226, 102, 0);
+    color: white;
+}
+
+.tab-button:hover:not(.active) {
+    background-color: #f0f0f0;
+}
+
+/* Form Styles */
+.form-group {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    flex-basis: 20%;
+    margin-right: 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+.form-group select,
+.form-group input[type="number"],
+.form-group input[type="text"] {
+    margin-right: 10px;
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group select:focus {
+    border-color: rgb(226, 102, 0);
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.2);
+}
+
+.form-group select {
+    margin-right: 10px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M1.5%203h9l-4.5%204.5L1.5%203z%22%20fill%3D%22%23000%22%20fill-opacity%3D%220.54%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+}
+
+/* Radio Group Styles */
+.radio-group {
+    gap: 10px;
+}
+
+/* Batch Table Styles */
+.batch-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.batch-table th, .batch-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.batch-table th {
+    background-color: #f0f0f0;
+}
+
+.batch-table tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Add Field Button Styles */
+.add-field-button, .remove-field-button {
+    border: 1px solid #ccc;
+    background-color: rgb(226, 102, 0);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    border-radius: 8px;
+}
+
+.add-field-button:hover, .remove-field-button:hover {
+    background-color: rgb(184, 83, 1);
+}
+
+/* Assign Batch Button Styles */
+.assign-batch-button {
+    background-color: rgb(226, 102, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.assign-batch-button:hover {
+    background-color: rgb(184, 83, 1);
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker overlay for better focus */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050; /* Higher z-index */
+    animation: fadeIn 0.3s; /* Smooth fade-in effect */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px; /* More pronounced rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Deeper shadow for 3D feel */
+    width: 90%;
+    max-width: 600px;
+    animation: slideIn 0.3s; /* Smooth slide-in effect */
+    overflow: hidden;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666; /* Subtle color */
+    transition: color 0.2s; /* Smooth color transition */
+}
+
+.close-button:hover {
+    color: #222; /* Darken color on hover for interaction feedback */
+}
+
+/* Submit Button Styles */
+.submit-button {
+    background-color: rgb(226, 102, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: rgb(184, 83, 1);
+}
+
+.course-columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .course-list {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 200px;
+  }
+  
+  .course-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    cursor: grab;
+  }
+
+
+
+
+  .form-group-new {
+    display: flex; /* Ensure elements are on the same line */
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.form-group-new label {
+    flex-basis: 20%;
+    margin-right: 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+.form-group-new select,
+.form-group-new input[type="number"],
+.form-group-new input[type="text"] {
+    margin-right: 10px;
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group-new input[type="text"]:focus,
+.form-group-new input[type="number"]:focus,
+.form-group-new select:focus {
+    border-color: rgb(226, 102, 0);
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.2);
+}
+
+.form-group-new select {
+    margin-right: 10px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M1.5%203h9l-4.5%204.5L1.5%203z%22%20fill%3D%22%23000%22%20fill-opacity%3D%220.54%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+}
+
+.course-columns-new {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-list-new {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 200px;
+    background-color: #f8f9fa; /* Matching the container background */
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Adding slight shadow for depth */
+}
+
+.course-item-new {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Slight shadow for depth */
+    cursor: grab;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.course-item-new:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Enhance shadow on hover */
+}
+
+.assign-courses-button-new {
+    background-color: rgb(226, 102, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.assign-courses-button-new:hover {
+    background-color: rgb(184, 83, 1);
+}

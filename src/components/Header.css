@@ -1,0 +1,78 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  border: 1px #ccc solid;
+}
+
+.logoSection {
+  flex-basis: 75%; /* Allocates 75% of the space to the logo section */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the logo horizontally */
+  border-right: 1.3px #ccc solid;
+  min-height: 90px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.dropdownSection {
+  flex-basis: 25%; /* Allocates 25% of the space to the dropdown */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.selectTermText {
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.dropdown {
+  width: 150px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.selectedTerm {
+  padding: 2px 0;
+}
+
+.dropdownContent {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.dropdownItem {
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #f0f0f0;
+}
+
+.selectedTerm {
+  display: flex;         /* New */
+  align-items: center;   /* New */
+  justify-content: space-between; /* Ensures space between text and icon */
+  padding: 2px 0;
+}

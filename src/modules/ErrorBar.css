@@ -1,0 +1,29 @@
+.error-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(184, 6, 6);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(100%);
+    z-index: 100000;
+  }
+  
+  .error-bar.show {
+    display: block;
+    transform: translateY(0);
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  

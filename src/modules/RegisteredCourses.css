@@ -1,0 +1,25 @@
+.registered-courses-container {
+    padding: 20px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .course-table th, .course-table td {
+    border: 1px solid #ddd;
+    padding: 18px;
+    text-align: left;
+  }
+  
+  .course-table th {
+    background-color: #050c1b;
+    color: white;
+  }
+  

@@ -1,0 +1,186 @@
+/* Additional styles for the file input button */
+.file-input-container {
+    margin: 20px 0;
+    background-color: #f4f4f4; /* Light grey background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.file-input-button {
+    border: 2px solid rgb(226, 102, 0); /* Same style as other buttons */
+    color: rgb(226, 102, 0); /* Text color to match your theme */
+    background-color: transparent;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s; /* Smooth transition for interaction */
+}
+
+.file-input-button:hover {
+    background-color: rgb(226, 102, 0); /* Darker on hover */
+    color: white;
+}
+
+.file-input-button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.2); /* Subtle glow effect on focus */
+}
+
+input[type="file"] {
+    display: none; /* Hide the default input */
+}
+
+
+.file-name {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.error-message {
+    color: #dc3545; /* Bootstrap danger color */
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.success-message {
+    color: green; /* Green text color for success */
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.mapping-interface-container {
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 800px; /* Adjust width for better layout of the table */
+    margin: 20px auto; /* Centering the container */
+}
+.mapping-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.mapping-table th, .mapping-table td {
+    text-align: left;
+    padding: 0; /* Remove padding to let the input fill the cell */
+    border-bottom: 1px solid #ccc;
+    padding-left: 30px;
+}
+
+.mapping-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 12px; /* Keep padding for header cells */
+    padding-left: 30px;
+}
+
+.mapping-table td input[type="text"] {
+    width: 100%;
+    border: none; /* Remove border */
+    padding: 12px; /* Same padding as cell for visual consistency */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 16px; /* Match font size */
+    background: none; /* Remove any background */
+    color: inherit; /* Use the text color of the cell */
+}
+
+.mapping-table td input[type="text"]:focus {
+    outline: none;
+    background-color: #eef4ff; /* Light blue background on focus for visibility */
+}
+
+.submit-mapping-button {
+    background-color: rgb(226, 102, 0);
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit-mapping-button:hover {
+    background-color: rgb(226, 102, 0);
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Adjust this to space-around or space-between as needed */
+    margin-top: 20px;
+}
+
+.submit-mapping-button, .cancel-button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px; /* Adds space between the buttons */
+}
+
+.submit-mapping-button {
+    background-color: rgb(226, 102, 0);
+    color: white;
+}
+
+.submit-mapping-button:hover {
+    background-color: #e47a2e; /* Slightly lighter on hover */
+}
+
+.cancel-button {
+    background-color: #ccc;
+    color: #333;
+}
+
+.cancel-button:hover {
+    background-color: #b3b3b3;
+}
+
+
+.mapping-table th, .mapping-table td {
+    text-align: left;
+    padding: 0; /* Reset padding for all */
+    border-bottom: 1px solid #ccc;
+}
+
+.mapping-table th:first-child, .mapping-table td:first-child {
+    padding-left: 30px; /* Only apply padding to the first cell of each row */
+}
+
+.mapping-table th:not(:first-child), .mapping-table td:not(:first-child) {
+    padding-left: 0; /* Ensure no padding for other cells */
+}
+
+.mapping-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 12px; /* Consistent padding for all header cells */
+}
+
+.mapping-table td input[type="text"] {
+    width: 100%;
+    border: none;
+    padding: 12px; /* Padding for input for consistency */
+    box-sizing: border-box;
+    font-size: 16px;
+    background: none;
+    color: inherit;
+}
+
+.mapping-table td input[type="text"]:focus {
+    outline: none;
+    background-color: #eef4ff;
+}

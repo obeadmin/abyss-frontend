@@ -1,0 +1,163 @@
+[
+    {
+      "schoolId": 1,
+      "schoolName": "School of Engineering",
+      "schoolAbbreviation": "SE",
+      "schoolCode": "ENG",
+      "yearOfEstablishment": 1964,
+      "status": "Active"
+    },
+    {
+      "schoolId": 2,
+      "schoolName": "School of Business",
+      "schoolAbbreviation": "SB",
+      "schoolCode": "BUS",
+      "yearOfEstablishment": 1958,
+      "status": "Active"
+    },
+    {
+      "schoolId": 3,
+      "schoolName": "School of Computer Sciences",
+      "schoolAbbreviation": "SCS",
+      "schoolCode": "CSC",
+      "yearOfEstablishment": 1972,
+      "status": "Active"
+    },
+    {
+      "schoolId": 4,
+      "schoolName": "School of Law",
+      "schoolAbbreviation": "SL",
+      "schoolCode": "LAW",
+      "yearOfEstablishment": 1985,
+      "status": "Active"
+    },
+    {
+      "schoolId": 5,
+      "schoolName": "School of Medicine",
+      "schoolAbbreviation": "SM",
+      "schoolCode": "MED",
+      "yearOfEstablishment": 1960,
+      "status": "Active"
+    },
+    {
+      "schoolId": 6,
+      "schoolName": "School of Arts and Sciences",
+      "schoolAbbreviation": "SAS",
+      "schoolCode": "A&S",
+      "yearOfEstablishment": 1967,
+      "status": "Active"
+    },
+    {
+      "schoolId": 7,
+      "schoolName": "School of Architecture",
+      "schoolAbbreviation": "SA",
+      "schoolCode": "ARC",
+      "yearOfEstablishment": 1975,
+      "status": "Active"
+    },
+    {
+      "schoolId": 8,
+      "schoolName": "School of Communication",
+      "schoolAbbreviation": "SC",
+      "schoolCode": "COM",
+      "yearOfEstablishment": 1982,
+      "status": "Active"
+    },
+    {
+      "schoolId": 9,
+      "schoolName": "School of Education",
+      "schoolAbbreviation": "SEd",
+      "schoolCode": "EDU",
+      "yearOfEstablishment": 1955,
+      "status": "Active"
+    },
+    {
+      "schoolId": 10,
+      "schoolName": "School of Environmental Sciences",
+      "schoolAbbreviation": "SES",
+      "schoolCode": "ENV",
+      "yearOfEstablishment": 1980,
+      "status": "Active"
+    },
+    {
+      "schoolId": 11,
+      "schoolName": "School of Pharmacy",
+      "schoolAbbreviation": "SP",
+      "schoolCode": "PHA",
+      "yearOfEstablishment": 1968,
+      "status": "Active"
+    },
+    {
+      "schoolId": 12,
+      "schoolName": "School of Biotechnology",
+      "schoolAbbreviation": "SBT",
+      "schoolCode": "BIO",
+      "yearOfEstablishment": 1991,
+      "status": "Active"
+    },
+    {
+      "schoolId": 13,
+      "schoolName": "School of Economics",
+      "schoolAbbreviation": "SEc",
+      "schoolCode": "ECO",
+      "yearOfEstablishment": 1970,
+      "status": "Active"
+    },
+    {
+      "schoolId": 14,
+      "schoolName": "School of Management",
+      "schoolAbbreviation": "SMgt",
+      "schoolCode": "MGT",
+      "yearOfEstablishment": 1978,
+      "status": "Active"
+    },
+    {
+      "schoolId": 15,
+      "schoolName": "School of Social Sciences",
+      "schoolAbbreviation": "SSS",
+      "schoolCode": "SSC",
+      "yearOfEstablishment": 1971,
+      "status": "Active"
+    },
+    {
+      "schoolId": 16,
+      "schoolName": "School of Physical Sciences",
+      "schoolAbbreviation": "SPS",
+      "schoolCode": "PSC",
+      "yearOfEstablishment": 1986,
+      "status": "Active"
+    },
+    {
+      "schoolId": 17,
+      "schoolName": "School of International Relations",
+      "schoolAbbreviation": "SIR",
+      "schoolCode": "INT",
+      "yearOfEstablishment": 1994,
+      "status": "Active"
+    },
+    {
+      "schoolId": 18,
+      "schoolName": "School of Hospitality and Tourism",
+      "schoolAbbreviation": "SHT",
+      "schoolCode": "HOS",
+      "yearOfEstablishment": 1988,
+      "status": "Active"
+    },
+    {
+      "schoolId": 19,
+      "schoolName": "School of Performing Arts",
+      "schoolAbbreviation": "SPA",
+      "schoolCode": "PER",
+      "yearOfEstablishment": 1973,
+      "status": "Active"
+    },
+    {
+      "schoolId": 20,
+      "schoolName": "School of Information Technology",
+      "schoolAbbreviation": "SIT",
+      "schoolCode": "IT",
+      "yearOfEstablishment": 1999,
+      "status": "Active"
+    }
+  ]
+  

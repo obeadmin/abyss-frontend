@@ -1,0 +1,171 @@
+.course-registration-container {
+    padding: 20px;
+    margin-bottom: 1500px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .dropdown-container {
+    margin-bottom: 20px;
+  }
+  
+  .course-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .course-table th, .course-table td {
+    border: 1px solid #ddd;
+    padding: 18px;
+    text-align: left;
+  }
+  
+  .course-table th {
+    background-color: #050c1b;
+  }
+  
+  .course-table td {
+    position: relative;
+  }
+  
+  .addButton {
+    background-color: rgb(226, 102, 0) !important;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 5px;
+  }
+  
+  .selected-courses-pane {
+    position: fixed;
+    bottom: 0;
+    left: 300px;
+    min-height: 200px;
+    right: 0;
+    background-color: #f8f9fa;;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .selected-courses {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .selected-course {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .selected-course span {
+    margin-right: 10px;
+  }
+  
+  .selected-course button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .selected-course button:hover {
+    color: red;
+  }
+  
+  .submit-button {
+    background-color: #050c1b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .submit-button:hover {
+    background-color: #394263;
+  }
+  
+
+  .selected-course button:hover {
+    color: red;
+  }
+  
+  .selected-course.success button {
+    color: green; /* Green tick on successful submission */
+  }
+  
+  .selected-course.success {
+   border: 1px solid green; /* Green tick on successful submission */
+  }
+  .submit-button {
+    background-color: #050c1b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .submit-button:hover {
+    background-color: #394263;
+  }
+  
+  .selected-courses-pane.success .selected-course button {
+    color: green;
+  }
+  
+  .selected-courses-pane.success .selected-course button:hover {
+    color: green;
+  }
+
+  .selected-courses-pane.visible {
+    display: block; /* Show when courses are added */
+  }
+  
+  .selected-courses-pane.success {
+    border: 2px solid green; /* Green border on successful submission */
+  }
+
+  .tick {
+    font-size: 40px;
+    color: green;
+  }
+  
+  .registration-message {
+    padding-top: 20px;
+    font-size: 28px;
+    color: green;
+    display: flex;
+    align-items: center;
+  }
+  
+  .green-tick {
+    font-size: 30px;
+    color: green;
+    margin-left: 10px;
+    border: 2.5px solid green;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
